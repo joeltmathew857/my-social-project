@@ -5,14 +5,14 @@ import Shareicon from "../Assets/svgicon/icon-share.svg";
 import SharePopup from "./SharePopup";
 
 const ArticlePreview = () => {
-  const [VisiblePop, SetVisiblePop] = useState(false);
+  const [popVisible, SetpopVisible] = useState(false);
 
-  const Togglepopup = () => {
-    SetVisiblePop(!VisiblePop);
+  const TogglePopUp = () => {
+    SetpopVisible(!popVisible);
   };
 
   return (
-    <div className="h-full w-auto relative p-8 justify-center flex items-center h-screen bg-slate-300">
+    <div className="flex relative justify-center items-center h-screen bg-slate-300">
       <div className="flex flex-row">
         <img
           src={ArticleDraw}
@@ -48,9 +48,9 @@ const ArticlePreview = () => {
                 src={Shareicon}
                 alt="Shareicon"
                 className="w-12 h-12 hover:bg-gray-700 text-gray-800 bg-gray-300 text-center p-4 rounded-full"
-                onClick={Togglepopup}
+                onClick={TogglePopUp}
               />
-              {VisiblePop && <SharePopup />}
+              {popVisible && <SharePopup />}
             </div>
           </div>
         </div>
