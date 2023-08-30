@@ -1,10 +1,10 @@
 import React from "react";
-import BodyContain from "./componets/BodyContain";
+import ArticlePreview from "./componets/ArticlePreview";
 
 const App = () => {
   return (
     <div>
-      <BodyContain />
+      <ArticlePreview />
     </div>
   );
 };

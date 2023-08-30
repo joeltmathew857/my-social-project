@@ -4,5 +4,5 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("@shrutibalasa/tailwind-grid-auto-fit")],
 };
