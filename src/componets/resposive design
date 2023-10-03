@@ -17,14 +17,14 @@ const ArticlePreview = () => {
         <img
           src={ArticleDraw}
           alt=""
-          className="object-cover h-80 w-full rounded-t-xl sm:h-80 w-80 rounded-l-xl md:rounded-t-xl"
+          className="object-cover h-80 w-full rounded-t-xl sm:h-80 rounded-l-xl md:rounded-t-xl"
         />
         <div className="description p-4 bg-white border border-white w-full rounded-b-xl md:rounded-b-none md:w-96">
           <div className="font-semibold text-2xl text-slate-500">
             Shift the overall look and feel by adding these wonderful touches to
             furniture in your home
           </div>
-          <div className="text-slate-500 py-4">
+          <div className="text-slate-500 py-3">
             Ever been in a room and felt like something was missing? Perhaps it
             felt slightly bare and uninviting. I’ve got some simple tips to help
             you make any room feel complete.
